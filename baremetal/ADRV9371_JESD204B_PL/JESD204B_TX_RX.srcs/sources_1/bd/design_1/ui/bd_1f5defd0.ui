@@ -1,0 +1,122 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.826923",
+   "Default View_TopLeft":"-376,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port tx -pg 1 -lvl 0 -x -30 -y 1140 -defaultsOSRD
+preplace port rx -pg 1 -lvl 6 -x 2130 -y 1070 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 2130 -y 180 -defaultsOSRD
+preplace port orx -pg 1 -lvl 6 -x 2130 -y 510 -defaultsOSRD
+preplace port port-id_jesd204b_reset -pg 1 -lvl 0 -x -30 -y 1240 -defaultsOSRD
+preplace port port-id_sysref -pg 1 -lvl 0 -x -30 -y 1260 -defaultsOSRD
+preplace port port-id_cpll_refclk -pg 1 -lvl 0 -x -30 -y 810 -defaultsOSRD
+preplace port port-id_qpll_refclk -pg 1 -lvl 0 -x -30 -y 830 -defaultsOSRD
+preplace port port-id_fpga_gc_clk -pg 1 -lvl 0 -x -30 -y 1370 -defaultsOSRD
+preplace port port-id_tx_sample_clk -pg 1 -lvl 6 -x 2130 -y 1340 -defaultsOSRD
+preplace port port-id_fclk_resetn -pg 1 -lvl 6 -x 2130 -y 340 -defaultsOSRD
+preplace port port-id_txout_clk -pg 1 -lvl 6 -x 2130 -y 1300 -defaultsOSRD
+preplace port port-id_rx_sample_clk -pg 1 -lvl 6 -x 2130 -y 1320 -defaultsOSRD
+preplace port port-id_up_rack -pg 1 -lvl 0 -x -30 -y 1500 -defaultsOSRD
+preplace port port-id_up_wack -pg 1 -lvl 0 -x -30 -y 1460 -defaultsOSRD
+preplace port port-id_up_rreq -pg 1 -lvl 6 -x 2130 -y 1470 -defaultsOSRD
+preplace port port-id_up_wreq -pg 1 -lvl 6 -x 2130 -y 1410 -defaultsOSRD
+preplace port port-id_SPI0_SCLK_O -pg 1 -lvl 6 -x 2130 -y 220 -defaultsOSRD
+preplace port port-id_SPI0_MOSI_O -pg 1 -lvl 6 -x 2130 -y 240 -defaultsOSRD
+preplace port port-id_SPI0_MISO_I -pg 1 -lvl 0 -x -30 -y 410 -defaultsOSRD
+preplace port port-id_fclk_100m -pg 1 -lvl 6 -x 2130 -y 320 -defaultsOSRD
+preplace port port-id_tx_sync -pg 1 -lvl 0 -x -30 -y 1280 -defaultsOSRD
+preplace port port-id_orx_sync -pg 1 -lvl 6 -x 2130 -y 690 -defaultsOSRD
+preplace port port-id_rx_sync -pg 1 -lvl 6 -x 2130 -y 1250 -defaultsOSRD
+preplace portBus txp_out -pg 1 -lvl 6 -x 2130 -y 990 -defaultsOSRD
+preplace portBus txn_out -pg 1 -lvl 6 -x 2130 -y 1010 -defaultsOSRD
+preplace portBus rxp_in -pg 1 -lvl 0 -x -30 -y 930 -defaultsOSRD
+preplace portBus rxn_in -pg 1 -lvl 0 -x -30 -y 910 -defaultsOSRD
+preplace portBus GPIO_O -pg 1 -lvl 6 -x 2130 -y 120 -defaultsOSRD
+preplace portBus GPIO_I -pg 1 -lvl 0 -x -30 -y 20 -defaultsOSRD
+preplace portBus GPIO_T -pg 1 -lvl 6 -x 2130 -y 140 -defaultsOSRD
+preplace portBus up_rdata -pg 1 -lvl 0 -x -30 -y 1480 -defaultsOSRD
+preplace portBus up_waddr -pg 1 -lvl 6 -x 2130 -y 1430 -defaultsOSRD
+preplace portBus up_wdata -pg 1 -lvl 6 -x 2130 -y 1450 -defaultsOSRD
+preplace portBus up_raddr -pg 1 -lvl 6 -x 2130 -y 1490 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 4 -x 1390 -y 1320 -defaultsOSRD
+preplace inst jesd204_tx -pg 1 -lvl 3 -x 920 -y 1200 -defaultsOSRD
+preplace inst jesd204_orx -pg 1 -lvl 5 -x 1880 -y 600 -defaultsOSRD
+preplace inst jesd204_rx -pg 1 -lvl 5 -x 1880 -y 1160 -defaultsOSRD
+preplace inst jesd204_phy_0 -pg 1 -lvl 4 -x 1390 -y 910 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 1880 -y 210 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 1040 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 2 -x 540 -y 1010 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 5 -x 1880 -y 870 -defaultsOSRD
+preplace inst up_axi_0 -pg 1 -lvl 5 -x 1880 -y 1450 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 3 -x 920 -y 900 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 3 -x 920 -y 580 -defaultsOSRD
+preplace netloc GPIO_I_0_1 1 0 6 -10J 10 NJ 10 NJ 10 NJ 10 1640J 400 2090
+preplace netloc SPI0_MISO_I_0_1 1 0 6 NJ 410 NJ 410 NJ 410 NJ 410 NJ 410 2080
+preplace netloc clk_in1_0_1 1 0 4 NJ 1370 NJ 1370 NJ 1370 1240J
+preplace netloc clk_wiz_0_clk_out1 1 2 4 760 1360 1190 1220 1560 1310 2110J
+preplace netloc clk_wiz_0_clk_out2 1 3 3 1240 1170 1600 1320 NJ
+preplace netloc clk_wiz_0_clk_out3 1 4 2 NJ 1340 NJ
+preplace netloc cpll_refclk_0_1 1 0 4 NJ 810 NJ 810 NJ 810 1180J
+preplace netloc jesd204_0_gt_prbssel_out 1 3 1 1180 1040n
+preplace netloc jesd204_0_tx_reset_gt 1 3 1 1170 880n
+preplace netloc jesd204_orx_rx_reset_gt 1 2 4 750 450 NJ 450 NJ 450 2080
+preplace netloc jesd204_orx_rx_sync 1 5 1 NJ 690
+preplace netloc jesd204_orx_rxencommaalign_out 1 2 4 750 1340 1230J 1240 1550J 1330 2100
+preplace netloc jesd204_phy_0_rx_reset_done 1 4 1 1610 580n
+preplace netloc jesd204_phy_0_tx_reset_done 1 2 3 740 1410 NJ 1410 1540
+preplace netloc jesd204_phy_0_txn_out 1 4 2 1560J 1000 2110J
+preplace netloc jesd204_phy_0_txp_out 1 4 2 1580J 990 NJ
+preplace netloc jesd204_rx_rx_reset_gt 1 2 4 750 660 NJ 660 1630J 750 2090
+preplace netloc jesd204_rx_rx_sync 1 5 1 NJ 1250
+preplace netloc jesd204_rx_rxencommaalign_out 1 2 4 730 1400 NJ 1400 1620J 1010 2080
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 30 1150 370 1120 700 1050 1200 1180 1570 420 2100
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 20 NJ 20 NJ 20 NJ 20 1650J 10 2110
+preplace netloc processing_system7_0_GPIO_O 1 5 1 NJ 120
+preplace netloc processing_system7_0_GPIO_T 1 5 1 NJ 140
+preplace netloc processing_system7_0_SPI0_MOSI_O 1 5 1 NJ 240
+preplace netloc processing_system7_0_SPI0_SCLK_O 1 5 1 NJ 220
+preplace netloc qpll_refclk_0_1 1 0 4 0J 820 NJ 820 NJ 820 1170J
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 4 380 1110 720 1060 1100 1190 1640
+preplace netloc rx_sysref_0_1 1 0 5 NJ 1260 NJ 1260 690 1350 1220J 1230 1660
+preplace netloc rxn_in_0_1 1 0 4 -10J 800 NJ 800 NJ 800 1080J
+preplace netloc rxp_in_0_1 1 0 4 10J 830 NJ 830 NJ 830 1160J
+preplace netloc tx_reset_0_1 1 0 5 NJ 1240 NJ 1240 710 1380 1210 1210 1650
+preplace netloc tx_sync_0_1 1 0 3 NJ 1280 NJ 1280 NJ
+preplace netloc up_axi_0_up_raddr 1 5 1 NJ 1490
+preplace netloc up_axi_0_up_rreq 1 5 1 NJ 1470
+preplace netloc up_axi_0_up_waddr 1 5 1 NJ 1430
+preplace netloc up_axi_0_up_wdata 1 5 1 NJ 1450
+preplace netloc up_axi_0_up_wreq 1 5 1 NJ 1410
+preplace netloc up_rack_0_1 1 0 5 NJ 1500 NJ 1500 NJ 1500 NJ 1500 NJ
+preplace netloc up_rdata_0_1 1 0 5 NJ 1480 NJ 1480 NJ 1480 NJ 1480 NJ
+preplace netloc up_wack_0_1 1 0 5 NJ 1460 NJ 1460 NJ 1460 NJ 1460 NJ
+preplace netloc util_vector_logic_0_Res 1 3 1 1150 900n
+preplace netloc util_vector_logic_1_Res 1 3 1 1190 580n
+preplace netloc jesd204_0_gt0_tx 1 3 1 1090 740n
+preplace netloc jesd204_0_gt1_tx 1 3 1 1110 760n
+preplace netloc jesd204_0_gt2_tx 1 3 1 1120 780n
+preplace netloc jesd204_0_gt3_tx 1 3 1 1140 800n
+preplace netloc jesd204_1_m_axis_rx 1 5 1 NJ 1070
+preplace netloc jesd204_orx_m_axis_rx 1 5 1 NJ 510
+preplace netloc jesd204_phy_0_gt0_rx 1 4 1 1630 810n
+preplace netloc jesd204_phy_0_gt1_rx 1 4 1 1590 830n
+preplace netloc jesd204_phy_0_gt2_rx 1 4 1 1540 540n
+preplace netloc jesd204_phy_0_gt3_rx 1 4 1 1580 560n
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ 180
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 370 30 NJ 30 NJ 30 1660J 20 2100
+preplace netloc s_axis_tx_0_1 1 0 3 NJ 1140 NJ 1140 NJ
+preplace netloc smartconnect_0_M00_AXI 1 2 1 710 970n
+preplace netloc smartconnect_0_M01_AXI 1 2 2 700J 790 1080
+preplace netloc smartconnect_0_M02_AXI 1 2 3 NJ 1010 1130J 1160 1580
+preplace netloc smartconnect_0_M03_AXI 1 2 3 680 1420 NJ 1420 1630J
+preplace netloc smartconnect_0_M04_AXI 1 2 3 690J 510 NJ 510 1650
+levelinfo -pg 1 -30 200 540 920 1390 1880 2130
+pagesize -pg 1 -db -bbox -sgen -180 0 2280 1560
+"
+}
+{
+   "da_clkrst_cnt":"6",
+   "da_ps7_cnt":"1"
+}

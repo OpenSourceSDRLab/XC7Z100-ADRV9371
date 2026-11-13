@@ -1,0 +1,17 @@
+/include/ "system-conf.dtsi"
+
+/ {
+    model = "OpenSourceSDRLab XC7Z100-ADRV9371";
+
+    status-leds {
+        compatible = "gpio-leds";
+
+        adrv9371-status {
+            label = "adrv9371:heartbeat";
+            /* Schematic V1.0 page 2: White1 / PS_LED / MIO7 / B24. */
+            gpios = <&gpio0 7 0>; /* active high */
+            default-state = "off";
+            linux,default-trigger = "none";
+        };
+    };
+};
